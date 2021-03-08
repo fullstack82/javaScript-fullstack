@@ -63,4 +63,9 @@ resultado = carrito.filter(function(producto) {
 })
 
 
+resultado = carrito.filter(function(producto) {
+    return producto.nombre !== 'tablet'
+})
+
+
 console.log(resultado)
